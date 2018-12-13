@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CORRER</string>
+    <string name="phone_numberHint">Número de teléfono</string>
+    <string name="instr">Ingrese su número telefónico. Asegúrese de que su conexión a Internet está funcionando.</string>
+    <string name="phone_verify">Actualización del perfil</string>
+    <string name="update_profileStr">Actualización del perfil</string>
+    <string name="my_teamStr">Mi equipo</string>
+    <string name="enter_team_nameHintStr">Ingrese el nombre del equipo</string>
+    <string name="let_s_runBTNSTR">Corramos</string>
+    <string name="welcomeBTNSTR">Formar parte de nuestra comunidad deportiva.</string>
+    <string name="set_languageStr">Elegir lenguaje</string>
+    <string name="my_challengesStr">Mis retos</string>
+    <string name="my_profileStr">Perfil</string>
+    <string name="settingsStr">Ajustes</string>
+    <string name="send_feedbackStr">Enviar comentarios</string>
+    <string name="sign_outStr">Desconectar</string>
+</resources>

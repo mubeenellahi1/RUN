@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RUN</string>
+    <string name="phone_numberHint">Phone Number</string>
+    <string name="instr">Enter your phone number. Make sure your internet connection is working.</string>
+    <string name="phone_verify">Verify Phone</string>
+    <string name="update_profileStr">Update Profile</string>
+    <string name="my_teamStr">My Team</string>
+    <string name="enter_team_nameHintStr">Enter Team Name</string>
+    <string name="let_s_runBTNSTR">Let\'s RUN</string>
+    <string name="welcomeBTNSTR">Become part of our sporting community</string>
+    <string name="set_languageStr">Set Language</string>
+    <string name="my_challengesStr">My Challenges</string>
+    <string name="my_profileStr">My Profile</string>
+    <string name="settingsStr">Settings</string>
+    <string name="send_feedbackStr">Send Feedback</string>
+    <string name="sign_outStr">Sign Out</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/sec2">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="@string/my_profileStr" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/sec3">
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/settingsStr" />
+        <item
+            android:id="@+id/nav_feeback"
+            android:title="@string/send_feedbackStr" />
+
+        <item
+            android:id="@+id/nav_signOut"
+            android:title="@string/sign_outStr"/>
+    </group>
+</menu>

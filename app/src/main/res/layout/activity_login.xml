@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/run_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/run_logo" />
+
+    <EditText
+        android:id="@+id/nameET"
+        style="@android:style/Widget.Material.EditText"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter Full Name"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/coloHint"
+        android:textSize="15sp"
+        android:layout_marginTop="250dp"
+        android:textAlignment="center"
+        android:padding="5dp"/>
+
+
+    <EditText
+        android:id="@+id/teamNameET"
+        style="@android:style/Widget.Material.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_team_nameHintStr"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/coloHint"
+        android:textSize="15sp"
+        android:layout_below="@id/nameET"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:padding="5dp"/>
+
+
+
+    <Button
+        android:id="@+id/lets_runBTN"
+        style="@android:style/Widget.Material.Button"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/teamNameET"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/let_s_runBTNSTR"
+        />
+
+    <TextView
+        android:id="@+id/signup_captionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/run_logo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcomeBTNSTR"
+        android:textAppearance="@android:style/TextAppearance.Material.Caption"
+        android:textColor="@android:color/white" />
+
+
+</RelativeLayout>

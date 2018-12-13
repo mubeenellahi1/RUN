@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_margin="15dp"
+    android:layout_marginBottom="30dp"
+    android:id="@+id/msgCardView"
+    >
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/feed_card">
+
+        <TextView
+            android:id="@+id/fTitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/btnColor"
+            android:textSize="30sp"
+            android:text="Post Title"
+            android:textStyle="bold"
+            android:padding="20dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+
+            <TextView
+                android:id="@+id/fAuthorTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muhammad Usman"
+                android:layout_alignParentRight="true"
+                android:layout_alignBaseline="@id/avgAgeTV"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:id="@+id/fDateTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/10/18"
+                android:layout_below="@id/tNameTV"
+                android:textColor="@android:color/white"
+                android:textSize="13sp"
+                android:layout_margin="20dp"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/fContentTV"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:text="" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
